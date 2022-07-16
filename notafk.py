@@ -1,12 +1,18 @@
 from pynput.keyboard import Key, Controller
 import time
-from colorama import Fore, Back, Style
+
 
 
 keyboard = Controller()
 
-print(Fore.RED +'Made by nekojin116   script will start running after 5s , it will press w , s and space then repeat every 5sec  not responsible for any bans in game resulted due to this script')
+print('Hello, world!')
+print('This is a simple script that imitiates in-game mouvements')
+print('To prevent getting kicked for begin afk by the game')
+print('Code made by nekojin116 , im not responsible for any bans')
+print('Code will start running after 5s')
 time.sleep(5)
+
+
 
 for i in range(1,100):
    keyboard.press('w')
